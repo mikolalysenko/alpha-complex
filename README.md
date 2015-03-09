@@ -10,6 +10,13 @@ alpha-complex
 
 ```javascript
 var alphaComplex = require('alpha-complex')
+
+var points = []
+for(var i=0; i<100; ++i) {
+  points.push([Math.random(), Math.random()])
+}
+
+console.log(alphaComplex(0.1, points))
 ```
 
 # Install
@@ -29,7 +36,6 @@ Constructs the alpha complex of the given set of points.
 * `points` is a list of points encoded as arrays
 
 **Returns** The alpha-complex of the point set.
-
 
 # License
 (c) 2015 Mikola Lysenko. MIT License
