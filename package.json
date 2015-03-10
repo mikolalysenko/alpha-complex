@@ -14,7 +14,7 @@
     "canvas-fit": "^1.2.0",
     "planar-graph-to-svg": "^1.0.0",
     "simplicial-complex": "^1.0.0",
-    "mouse-change": "^1.1.1",
+    "mouse-change": "^1.1.1"
   },
   "scripts": {
     "test": "tape test/*.js"
